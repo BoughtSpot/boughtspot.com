@@ -28,3 +28,7 @@ footer span{
 footer li{
   display: inline;
 }
+
+[rel="publisher"]{
+  display: none;
+}
