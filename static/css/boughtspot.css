@@ -1,0 +1,30 @@
+html, body {
+  max-width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: url(../images/page-background.png);
+  text-align: center;
+}
+
+h1{text-transform: uppercase;}
+nav li{
+  display: inline;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #555;
+  background-color: fuschia;
+  text-decoration: none;
+}
+
+footer span{
+  padding: 5px 30px
+}
+
+footer li{
+  display: inline;
+}
