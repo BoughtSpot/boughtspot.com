@@ -4,7 +4,7 @@
     {% block head %}
     <meta charset="UTF-8">
     <title>{% block title %} BoughtSpot {% endblock %}</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Exo:800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/boughtspot.css') }}" media="screen">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.css') }}" media="screen">
     {% endblock %}
@@ -12,19 +12,17 @@
 
 <body>
     <nav>
-        <ul>
-            <li class="logo-wrapper"><a href="{{ url_for('home') }}">BoughtSpot</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
+        <li><a class="logo" href="{{ url_for('home') }}">BoughtSpot_</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact Us</a></li>
     </nav>
 
 
     {% block body %}
     <section id="about">
         <h1>Brand Identity, Web Development &amp; Online Advertising</h1>
-        <p>At BoughtSpot, we help you define your brand, build your web presence and increase engagement with customers. Simply, we design logos, brochures, websites while advertising your business online on social networks, blogs, etc.</p>
+        <p>At BoughtSpot, we help you define your brand, build your web presence and increase engagement with customers. Simply, we design logos, brochures, websites and advertise your business online on social networks, blogs, etc.</p>
         <a class="button" href="">Work With Us</a>
     </section>
 
