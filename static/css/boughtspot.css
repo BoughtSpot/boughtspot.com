@@ -93,6 +93,15 @@ nav li{
   box-sizing: inherit;
 } 
 
+.works{
+  margin-bottom: 50px;
+}
+
+.works img{
+  width: 20%;
+  margin: auto 15px;
+}
+
 footer span{
   padding: 5px 30px
 }
