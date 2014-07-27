@@ -64,7 +64,7 @@ html, body {
 }
 
 body {
-  background: url(../images/page-background.png);
+  /*background: url(../images/page-background.png);*/
   text-align: center;
 }
 
@@ -112,8 +112,8 @@ nav li{
 }
 
 [id="about"]{
-  height: 70vh;
-  background-image: url('../images/about.jpg');
+  height: 640px;
+  background-image: url('../images/air980plus.jpg');
   background-size: cover;
   padding-top: 6%;
 }
@@ -158,10 +158,22 @@ footer li{
 
 @media(max-width: 480px){
 /*phones*/
+  [id="about"]{
+    height: 480px;
+    background-image: url('../images/air480.jpg');
+  }
 }
 @media(max-width: 768px){
 /*tablets*/
+  [id="about"]{
+    height: 480px;
+    background-image: url('../images/air768.jpg');
+  }
 }
 @media(max-width: 980px){
 /*netbooks, small screens*/
+  [id="about"]{
+    height: 510px;
+    background-image: url('../images/air980.jpg');
+  }
 }
