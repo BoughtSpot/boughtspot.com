@@ -4,7 +4,7 @@
     {% block head %}
     <meta charset="UTF-8">
     <title>{% block title %} BoughtSpot {% endblock %}</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato|Exo:800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Exo:500,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/boughtspot.css') }}" media="screen">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.css') }}" media="screen">
     {% endblock %}
@@ -22,14 +22,14 @@
     {% block body %}
     <section id="about">
         <h1>Brand Identity, Web Development &amp; Online Advertising</h1>
-        <!-- <p>At BoughtSpot, we help you define your brand, build your web presence and increase engagement with customers. Simply, we design logos, brochures, websites and advertise your business online on social networks, blogs, etc.</p> -->
-        <a class="button" href="">Work With Us</a>
     </section>
+        <section class="at-boughtspot"><p>At BoughtSpot, we help you define your brand, build your web presence and increase engagement with customers. Simply, we design logos, brochures, websites and advertise your business online on social networks, blogs, etc.</p>
+                <a class="button" href="">Work With Us</a></section>
 
     <section id="clients">
         <article>
-            <h4>Brand Identity</h4>
-            <p>Beyond designing logos, we exceed the expectations of these brands as we helped to develop their brand identity.</p>
+            <h3>Brand Identity</h3>
+            <p>Beyond designing logos, we exceeded the expectations of these brands as we helped to develop their brand identity.</p>
             <div class="works">
                 <img src="{{ url_for('static', filename='images/lmi.png') }}" alt="Leaders and Mentors">
                 <img src="{{ url_for('static', filename='images/jcdf.png') }}" alt="JCD Foundation">
@@ -46,7 +46,7 @@
             </div>
         </article>
         <article>
-            <h4>Web Development</h4>
+            <h3>Web Design, Consulting and Development</h3>
             <p>With our expertise in the latest technologies in web development, we have worked with these clients to build state-of-the-art websites.</p>
             <div class="works">
                 <a href="http://jcdfoundation.org"><img src="{{ url_for('static', filename='images/jcdf.png') }}" alt=""></a>
@@ -56,8 +56,8 @@
             </div>
         </article>
         <article>
-            <h4>Online/Social Media Marketing</h4>
-            <p>Online/social media marketing is out territory, and these brands have increased their customer reach and engagement through our services.</p>
+            <h3>Online/Social Media Marketing</h3>
+            <p>Online/social media marketing is our territory, and these brands have increased their customer reach and lead generation with our services.</p>
             <div class="works">
                 <a href="http://sparrowstation.com">Sparrow Station</a>
                 <a href="http://blu.com.gh">Blu Telecommunications</a>
@@ -69,7 +69,7 @@
         <span>Get in touch.</span>
         <form action="">
             <input type="Name" placeholder="Your Name">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <textarea name="" cols="30" rows="10" placeholder="Your message"></textarea>
             <a class="button" href="">Talk to us</a>
         </form>
     </section>
@@ -85,13 +85,14 @@
                 <li><a href="#contact">Contact Us</a></li>
             </span>
             <span>
-                <li>Phone: <a href="tel:+233205479685">+233205479685</a> </li>
-                <li>Email: <a href="mailto:work@boughtspot.com">work@boughtspot.com</a></li>
+                <li>Phone: <a href="tel:+233505827254">+233205827254</a> </li>
+                <li>WhatsApp: <a href="tel:+233208747355">+233208747355</a> </li>
+                <li>Email: <a href="mailto:work@boughtspot.com">office@boughtspot.com</a></li>
             </span>
             <span>
-                <a href="https://facebook.com/boughtspot"><i class="fa fa-facebook forge-right-pad"></i></a>
-                <a href="https://twitter.com/boughtspot"><i class="fa fa-twitter forge-right-pad"></i></a>
-                <a href="https://plus.google.com/+boughtspot"><i class="fa fa-google-plus forge-right-pad"></i></a>
+                <a href="https://facebook.com/boughtspot"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/boughtspot"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/+boughtspot"><i class="fa fa-google-plus"></i></a>
             </span>
 
         </footer>
