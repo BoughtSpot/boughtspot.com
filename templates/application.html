@@ -4,6 +4,7 @@
 	{% block head %}
 	<meta charset="UTF-8">
 	<title>{% block title %} BoughtSpot {% endblock %}</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/boughtspot.ico') }}">
 	<link href='http://fonts.googleapis.com/css?family=Exo:800|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/boughtspot.css') }}" media="screen">
 	<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.css') }}" media="screen"> -->
@@ -12,9 +13,32 @@
 
 <body>
 	<div class="wrapper">
-		<h1>BoughtSpot_</h1>
+		<section class="cta offline-cta">
+			<p>Do you want to grow your social profiles?</p>
+			<p>Do you want to take your business online?</p>
+			<p>Do you want to increase your online reach?</p>
+			<p>Do you want to advertise your business online?</p>
+			<p>Call or WhatsApp 0208747355 now to get started.</p>
+			<!-- <img src="{{ url_for('static', filename='images/whatsapp-grey.png') }}" alt="Whatsapp Logo"><a href="tel:+233208747355">+233208747355</a> -->
+			<!-- <i class="fa fa-envelope"></i> <a href="mailto:office@boughtspot.com">office@boughtspot.com</a> -->
+		</section>
+		<section class="cta online-cta">
+			<p>We're building our online community, and we want you to be a part. Yes, you!</p>
+			<p style="margin-top:5px">You can <a href="https://twitter.com/BoughtSpot" class="twitter-follow-button" data-show-count="false">Follow @BoughtSpot</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>, <span class="fb-like" data-href="https://facebook.com/boughtspot" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></span> or <input class="leave-email" type="email" placeholder="just leave your email address" autofocus> <a href="#" class="submit-email">ok</a> </p>
+			
+			<div class="bottom-text"><p><span class="b_">BoughtSpot_</span> | Putting every Ghanaian business online</p></div>
+		</section>
 		<a href="https://plus.google.com/100474360086510782325" rel="publisher">Google+</a>
 	</div>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

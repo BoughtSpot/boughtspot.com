@@ -60,7 +60,7 @@ table {
 
 html, body {
   max-width: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -69,10 +69,15 @@ body {
 }
 
 .wrapper{
-  background-image: url(../images/bg.jpg);
-  background-size: cover;
+  /*background-image: url(../images/bg.jpg);*/
+  /*background-size: cover;*/
   height: 100vh;
   position: relative;
+}
+
+.wrapper h4{
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
 }
 
 nav {
@@ -108,7 +113,54 @@ h1, h2, h3, h4, h5, h6{
 }
 
 section{
-  margin-bottom: 100px;
+}
+
+.cta {
+  height: 50vh;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.offline-cta{
+  background: fuchsia;
+  font-size: 30px;
+}
+
+.online-cta{
+  position: relative;
+}
+
+.bottom-text{
+  position: absolute;
+  text-align: center; 
+  bottom: 5px;
+  font-size: 14px;
+}
+
+.leave-email{
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px gray solid;
+  padding: 2px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+       -o-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.leave-email:focus{
+  border: 1px #e40066 solid;
+  outline: none;
+}
+
+.submit-email{
+  background: red;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: none;
+  padding: 3px 5px;
 }
 
 article {
@@ -136,6 +188,7 @@ h3{
   background-image: url('../images/air980plus.jpg');
   background-size: cover;
   padding-top: 6%;
+  margin-bottom: 40px;
 }
 
 [id="about"] h1{
@@ -178,8 +231,18 @@ article p{
   margin: auto 15px;
 }
 
+footer {
+  font-size: 13px;
+}
+
 footer span{
   padding: 5px 30px
+}
+
+.b_{
+  font-weight: bold;
+  font-family: "Exo", sans-serif;
+  color: #e40066;
 }
 
 footer li{

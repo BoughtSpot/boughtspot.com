@@ -4,9 +4,10 @@
     {% block head %}
     <meta charset="UTF-8">
     <title>{% block title %} BoughtSpot {% endblock %}</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato|Exo:500,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/boughtspot.css') }}" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.css') }}" media="screen">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/boughtspot.ico') }}">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans|Exo:500,800'>
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='css/boughtspot.css') }}" media="screen">
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='css/font-awesome.css') }}" media="screen">
     {% endblock %}
 </head>
 
@@ -23,8 +24,9 @@
     <section id="about">
         <h1>Brand Identity, Web Development &amp; Online Advertising</h1>
     </section>
-        <section class="at-boughtspot"><p>At BoughtSpot, we help you define your brand, build your web presence and increase engagement with customers. Simply, we design logos, brochures, websites and advertise your business online on social networks, blogs, etc.</p>
-                <a class="button" href="">Work With Us</a></section>
+    <section class="at-boughtspot"><p>At BoughtSpot, we help you define your brand, build your web presence and increase engagement with customers. Simply, we design logos, brochures, websites and advertise your business online on social networks, blogs, etc.</p>
+        <a class="button" href="">Work With Us</a>
+    </section>
 
     <section id="clients">
         <article>
@@ -49,29 +51,29 @@
             <h3>Web Design, Consulting and Development</h3>
             <p>With our expertise in the latest technologies in web development, we have worked with these clients to build state-of-the-art websites.</p>
             <div class="works">
-                <a href="http://jcdfoundation.org"><img src="{{ url_for('static', filename='images/jcdf.png') }}" alt=""></a>
-                <a href="http://chrisattohofficial.com"><img src="{{ url_for('static', filename='images/chrisattoh.png') }}" alt=""></a>
-                <a href="http://leadersandmentors.biz"><img src="{{ url_for('static', filename='images/lmi.png') }}" alt=""></a>
-                <a href="http://gdriv.es/machiv"><img src="{{ url_for('static', filename='images/mach-iv.png') }}" alt=""></a>
+                <a href="http://jcdfoundation.org" target="_blank"><img src="{{ url_for('static', filename='images/jcdf.png') }}" alt="Joselyn Canfor-Dumas Foundation"></a>
+                <a href="http://chrisattohofficial.com" target="_blank"><img src="{{ url_for('static', filename='images/chrisattoh.png') }}" alt="Chris Attoh"></a>
+                <a href="http://leadersandmentors.biz" target="_blank"><img src="{{ url_for('static', filename='images/lmi.png') }}" alt="Leaders and Mentors"></a>
+                <a href="http://gdriv.es/machiv" target="_blank"><img src="{{ url_for('static', filename='images/mach-iv.png') }}" alt="Mach IV Aviation"></a>
             </div>
         </article>
         <article>
             <h3>Online/Social Media Marketing</h3>
             <p>Online/social media marketing is our territory, and these brands have increased their customer reach and lead generation with our services.</p>
             <div class="works">
-                <a href="http://sparrowstation.com">Sparrow Station</a>
-                <a href="http://blu.com.gh">Blu Telecommunications</a>
+                <a href="http://sparrowstation.com" target="_blank">Sparrow Station</a>
+                <a href="http://blu.com.gh" target="_blank">Blu Telecommunications</a>
             </div>
         </article>
     </section>
 
     <section id="contact">
-        <span>Get in touch.</span>
-        <form action="">
-            <input type="Name" placeholder="Your Name">
-            <textarea name="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <a class="button" href="">Talk to us</a>
-        </form>
+        <p>Impressed with our works? Reach us now, any of these work.</p>
+        <div>
+            <span><i class="fa fa-phone"></i>0505827254</span>
+            <span><img src="{{ url_for('static', filename='images/whatsapp-grey.png') }}">+233208747355</span>
+        </div>
+        <span>Better still, send a note.</span>
     </section>
 
         {% endblock body %}
@@ -85,9 +87,9 @@
                 <li><a href="#contact">Contact Us</a></li>
             </span>
             <span>
-                <li>Phone: <a href="tel:+233505827254">+233205827254</a> </li>
-                <li>WhatsApp: <a href="tel:+233208747355">+233208747355</a> </li>
-                <li>Email: <a href="mailto:work@boughtspot.com">office@boughtspot.com</a></li>
+                <li><i class="fa fa-phone"></i><a href="tel:+233505827254">+233205827254</a></li>
+                <li><img src="{{ url_for('static', filename='images/whatsapp-grey.png') }}" alt="Whatsapp Logo"><a href="tel:+233208747355">+233208747355</a></li>
+                <li><i class="fa fa-envelope"></i> <a href="mailto:work@boughtspot.com">office@boughtspot.com</a></li>
             </span>
             <span>
                 <a href="https://facebook.com/boughtspot"><i class="fa fa-facebook"></i></a>
