@@ -1,12 +1,12 @@
 import os
 from flask import (
-   Flask,
-   url_for,
-   render_template,
-   redirect,
-   request,
-   flash
-)
+    Flask,
+    url_for,
+    render_template,
+    redirect,
+    request,
+    flash
+    )
 
 app = Flask(__name__)
 
@@ -16,11 +16,15 @@ def home():
 
 @app.route('/apply')
 def apply():
-  return render_template('apply.html')
+    return render_template('apply.html')
 
 @app.route('/faq')
 def faq():
-  return render_template('faq.html')
+    return render_template('faq.html')
+
+@app.route('/landing')
+def landing():
+    return render_template('landing.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
