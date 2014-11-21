@@ -26,9 +26,8 @@ def faq():
 def landing():
     return render_template('landing.html')
 
-# Ad landing pages
 @app.route('/start')
-def faq():
+def start():
     return render_template('faq.html')
 
 if __name__ == '__main__':
