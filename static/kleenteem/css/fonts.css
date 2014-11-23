@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'PFBeauSansPro-XThin';
+    src: url('fonts/PFBeauSansPro-XThin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFBeauSansPro-XThin.woff') format('woff'), 
+         url('fonts/PFBeauSansPro-XThin.ttf')  format('truetype'),
+         url('fonts/PFBeauSansPro-XThin.svg#PFBeauSansPro-XThin') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBeauSansPro-Thin';
+    src: url('fonts/PFBeauSansPro-Thin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFBeauSansPro-Thin.woff') format('woff'), 
+         url('fonts/PFBeauSansPro-Thin.ttf')  format('truetype'),
+         url('fonts/PFBeauSansPro-Thin.svg#PFBeauSansPro-Thin') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBeauSansPro-Light';
+    src: url('fonts/PFBeauSansPro-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFBeauSansPro-Light.woff') format('woff'), 
+         url('fonts/PFBeauSansPro-Light.ttf')  format('truetype'),
+         url('fonts/PFBeauSansPro-Light.svg#PFBeauSansPro-Light') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBeauSansPro-Regular';
+    src: url('fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFBeauSansPro-Regular.woff') format('woff'), 
+         url('fonts/PFBeauSansPro-Regular.ttf')  format('truetype'),
+         url('fonts/PFBeauSansPro-Regular.svg#PFBeauSansPro-Regular') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBeauSansPro-SemiBold';
+    src: url('fonts/PFBeauSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFBeauSansPro-SemiBold.woff') format('woff'), 
+         url('fonts/PFBeauSansPro-SemiBold.ttf')  format('truetype'),
+         url('fonts/PFBeauSansPro-SemiBold.svg#PFBeauSansPro-SemiBold') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(http://cdn.kde.org/fonts/fontawesome-webfont.eot);
+    src: url(http://cdn.kde.org/fonts/fontawesome-webfont.eot?#iefix) format('embedded-opentype'),
+         url(http://cdn.kde.org/fonts/fontawesome-webfont.woff) format('woff'),
+         url(http://cdn.kde.org/fonts/fontawesome-webfont.ttf) format('truetype'),
+         url(http://cdn.kde.org/fonts/fontawesome-webfont.svg#FontAwesome) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

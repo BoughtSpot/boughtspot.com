@@ -30,5 +30,9 @@ def landing():
 def start():
     return render_template('faq.html')
 
+# @app.route('/static/work/kleenteem')
+# def kleenteem():
+#     return render_template('static/kleenteem/index.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
