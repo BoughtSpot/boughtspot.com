@@ -142,9 +142,21 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+header .container {
+    padding: 0;
+}
+
+header img {
+    width: 100%;
+}
+
 .main-content > .row {
     background-color: rgb(249,249,249);
     padding: 40px;
+}
+
+.page-title-text-image {
+    margin: 30px auto;
 }
 
 footer {
