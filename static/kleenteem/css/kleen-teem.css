@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.button-image{
+    margin-top: -3px;
+}
+
 .main-content-list{
     padding-left: 20px;
 }
@@ -85,6 +89,17 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
 }
 
+.navbar-default .navbar-nav > li.first-bar-social > a {
+    color: #777;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+}
+
+.first-bar .navbar-right li.first-bar-social:last-child{
+    margin-right: 3px;
+}
+
 .navbar-brand{
     padding: 0;
     margin-left: 14px;
@@ -95,8 +110,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 25px;    
 }
 
+.first-bar{
+    margin-right: 10px;
+}
+
 .first-bar li{
     margin-top: 30px;
+}
+
+li.first-bar-social{
+    margin-top: 7.5px;
+    margin-right: -25px;
+}
+
+.first-bar-social > a {
+/*    margin: 15px;
+    padding: 0px;*/
 }
 
 .main-navbar .first-bar li span {
@@ -156,7 +185,12 @@ header img {
 }
 
 .page-title-text-image {
-    margin: 30px auto;
+    /*margin: 30px auto;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer {
