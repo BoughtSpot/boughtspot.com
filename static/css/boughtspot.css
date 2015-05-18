@@ -131,6 +131,7 @@ hr {
 }
 
 .services--list--item {
+    display: inline;
     width: 48%;
     text-align: center;
 }
