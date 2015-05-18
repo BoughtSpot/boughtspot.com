@@ -1,0 +1,352 @@
+/*ERIC MEYER RESET!*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* MEYER RESET ENDS*/
+
+*{
+    box-sizing:border-box;
+}
+
+*::after, *::before{
+    box-sizing: inherit;
+} 
+
+html, body {
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /*background: url(../images/page-background.png);*/
+    text-align: center;
+}
+
+.wrapper{
+    /*background-image: url(../images/bg.jpg);*/
+    /*background-size: cover;*/
+    height: 100vh;
+    position: relative;
+}
+
+.wrapper h4{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    padding: 20px;
+    background: transparent;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    position: absolute;
+    width: 100%;
+}
+
+nav:hover{
+    background: rgba(228, 0, 102, 0.18);
+}
+
+nav li{
+    display: inline;
+    margin: auto 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Exo', sans-serif;
+    color: #e40066;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Exo', sans-serif;
+}
+
+.home-wrapper{
+    position: relative;
+    height: 100vh;
+    resize: both;
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.home-overlay{
+    background-color: rgba(234, 231, 168, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.home-text{
+    position: absolute;
+    resize: both;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-title{
+    font-size: 3.1em;
+    font-weight: bold;
+    font-family: "Exo", sans-serif;
+    color: #e40066;
+}
+
+.home-tagline{
+    margin-top: 10px;
+}
+
+.home-offline-cta{
+
+}
+
+.home-online-cta{
+    margin-top: 7px;
+}
+
+section{
+}
+
+.cta {
+    height: 50vh;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.offline-cta{
+    background: #e40066;
+    font-size: 30px;
+    -webkit-animation:offline-cta-entry 1s normal ease-out;
+    animation:offline-cta-entry 1s normal ease-out;
+}
+
+.offline-cta p{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-animation:offline-cta-entry 1s normal ease-out;
+    animation:offline-cta-entry 1s normal ease-out;
+}
+
+.phone-number{
+    font-size: 3em;
+}
+
+@-webkit-keyframes offline-cta-entry{
+    0%{
+        opacity:0%
+    }
+    100%{
+        top:100%
+    }
+}
+@keyframes offline-cta-entry{
+    0%{
+        opacity: 0%
+    }
+    100%{
+        opacity: 100%
+    }
+}
+
+.online-cta{
+    position: relative;
+}
+
+.bottom-text{
+    position: absolute;
+    text-align: center; 
+    bottom: 5px;
+    font-size: 14px;
+}
+
+.leave-email{
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px gray solid;
+    padding: 2px;
+    font-family: "Open Sans", sans-serif;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.leave-email:focus{
+    border: 1px #e40066 solid;
+    outline: none;
+}
+
+.submit-email{
+    background: red;
+    border-radius: 3px;
+    color: #000;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+
+article {
+    margin: 100px 0;
+}
+
+h1{
+    font-family: 'Exo', sans-serif;
+    padding-top: 80px;
+    font-size: 2.8em;
+    color: #e40066;
+    font-weight: 800;
+}
+
+h3{
+    text-align:left;
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-bottom: 12px;
+}
+
+[id="about"]{
+    height: 640px;
+    background-image: url('../images/air980plus.jpg');
+    background-size: cover;
+    padding-top: 6%;
+    margin-bottom: 40px;
+}
+
+[id="about"] h1{
+}
+
+[id="about"] p{
+    margin: 20px 10%;
+}
+
+[id="about"] a{
+}
+
+article p{
+    margin-left: 8%;
+    text-align: initial;
+    margin-bottom: 10px;
+}
+
+.at-boughtspot{
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #555;
+    text-decoration: none;
+}
+
+.works{
+    margin-bottom: 50px;
+}
+
+.works img{
+    width: 20%;
+    margin: auto 15px;
+}
+
+footer {
+    font-size: 13px;
+}
+
+footer span{
+    padding: 5px 30px
+}
+
+.b_{
+    font-weight: bold;
+    font-family: "Exo", sans-serif;
+    color: #e40066;
+}
+
+footer li{
+    display: inline;
+}
+
+[rel="publisher"]{
+    display: none;
+}
+
+@media(max-width: 480px){
+    /*phones*/
+    [id="about"]{
+        height: 480px;
+        background-image: url('../images/air480.jpg');
+    }
+}
+@media(max-width: 768px){
+    /*tablets*/
+    [id="about"]{
+        height: 480px;
+        background-image: url('../images/air768.jpg');
+    }
+}
+@media(max-width: 980px){
+    /*netbooks, small screens*/
+    [id="about"]{
+        height: 510px;
+        background-image: url('../images/air980.jpg');
+    }
+}

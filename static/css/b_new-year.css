@@ -1,0 +1,41 @@
+.page-wide__container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin: 10px auto; 
+}
+
+.navbar .b_{
+    float: left;
+}
+
+.navbar .what-we-do{
+    float: right;
+}
+
+.description {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.main-image, .content{
+    width: 50%;
+}
+
+.main-image img{
+    max-width: 100%;
+}
+
+.content {
+    float: right;
+}
+
+.content__header{
+
+}
+
+.content__sub-text{
+    
+}

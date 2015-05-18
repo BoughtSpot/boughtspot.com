@@ -30,9 +30,19 @@ def landing():
 def start():
     return render_template('faq.html')
 
-# @app.route('/static/work/kleenteem')
-# def kleenteem():
-#     return render_template('static/kleenteem/index.html')
+@app.route('/new-year')
+def christmas():
+    return render_template('new-year.html')
+
+@app.route('/holidays')
+def holidays():
+    return render_template('holidays.html')
+
+@app.route('/offers')
+def offers():
+    return render_template('offers.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
